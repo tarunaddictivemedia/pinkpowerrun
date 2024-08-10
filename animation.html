@@ -17,13 +17,29 @@
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ScrollLottie.js"></script>
 
   <script>
-    ScrollLottie({
- target: '#animationWindow',
- path: 'https://pinkpowerrun.netlify.app/life.json', 
- duration: .1, 
- speed: 'medium'
-})
+//     ScrollLottie({
+//  target: '#animationWindow',
+//  path: 'https://pinkpowerrun.netlify.app/life.json', 
+//  duration: .1, 
+//  speed: 'medium'
+// })
 
+	  var anim;
+var elem = document.getElementById("animationWindow");
+var animData = {
+  container: elem,
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  rendererSettings: {
+    progressiveLoad: true,
+    preserveAspectRatio: "xMidYMid meet",
+    imagePreserveAspectRatio: "xMidYMid meet"
+  },
+  path: "https://pinkpowerrun.netlify.app/life.json"
+};
+anim = lottie.loadAnimation(animData);
+anim.setSubframe(false);
   </script>
 </body>
 </html>
