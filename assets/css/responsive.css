@@ -1,0 +1,758 @@
+@media only screen and (max-width: 1599px) {}
+
+@media only screen and (max-width: 1399px) {
+  .topSection {
+    padding-top: 140px;
+  }
+
+  .scrollSection {
+    scroll-margin-top: 140px;
+  }
+
+  .topbarText a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .topNavbar .navbar-nav.navLeft {
+    padding: 0px 20px;
+  }
+
+  .topNavbar .nav-link {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px 4px !important;
+  }
+
+  .aboutText h1 {
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 14px;
+  }
+
+  .aboutText p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 70%;
+    padding-bottom: 20px;
+  }
+
+  .aboutCountdownIn h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .aboutInfoarea {
+    padding: 30px 0px 30px;
+  }
+
+  .aboutInfoBoxes {
+    padding: 0px 0px;
+    gap: 0px 40px;
+  }
+
+  .aboutInfoBox {
+    gap: 0px 10px;
+  }
+
+  .aboutInfoBox h4 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .sectionHeading {
+    margin-bottom: 40px;
+    gap: 14px 0px;
+  }
+
+  .sectionHeading h1 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .sectionHeading p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .sectionHeading.text-center p {
+    max-width: 70%;
+  }
+
+  .factSection {
+    padding: 60px 0px 0px;
+  }
+
+  .factTextArea {
+    padding: 0px 40px 0px 0px;
+  }
+
+  .factTextArea ul {
+    gap: 30px 0px;
+  }
+
+  .partnerSection {
+    padding: 60px 0px 0px;
+  }
+
+  .partnerBox .partnerBoxHead ul li img {
+    width: 100%;
+    height: 80px;
+  }
+
+  .founderWrapper {
+    gap: 0px 50px;
+  }
+
+  .founderUser img {
+    width: 380px;
+    height: 380px;
+  }
+
+  .founderQuote p {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .founderQuote {
+    margin-bottom: 20px;
+  }
+
+  .founderText h4 {
+    font-size: 30px;
+  }
+
+  .factTextArea ul li {
+    gap: 0px 16px;
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .factSlider .slick-slide img {
+    height: 640px;
+  }
+
+  .founderQuote img.quoteLeft,
+  .founderQuote img.quoteRight {
+    width: 80px;
+  }
+
+  .founderText img.ribbon {
+    width: 80px;
+    position: absolute;
+    right: 8%;
+    bottom: 9%;
+  }
+
+  .founderSection {
+    padding: 100px 0px 100px;
+    background-position: center bottom 220%;
+  }
+
+  .impactSection {
+    padding: 60px 0px 60px;
+  }
+
+  .impactSection h1 {
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 20px;
+  }
+
+  .impactSection h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .amenitieSection {
+    padding: 60px 0px 0px;
+  }
+
+  .amenitieBox h2,
+  .calendarBox h2,
+  .calendarHighlightBox h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .calendarSection {
+    padding: 60px 0px 0px;
+  }
+
+  .calendarHighlightBox P {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+
+  .calendarHighlight {
+    padding: 0px 20px 30px 0px;
+  }
+
+  .calendarHighlightBoxes {
+    gap: 25px 0px;
+  }
+
+  .footerTop {
+    padding: 80px 0px 80px;
+  }
+
+  .footerTopIn h4 {
+    margin-bottom: 30px;
+  }
+
+  .footerTopIn h1 {
+    font-size: 50px;
+    line-height: 80px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .scrollSection {
+    scroll-margin-top: 130px;
+  }
+
+  .topSection {
+    padding-top: 130px;
+  }
+
+  .topNavbar {
+    padding: 17px 0px;
+  }
+
+  .topNavbar .nav-link.navLinkBtn {
+    padding: 14px 22px !important;
+  }
+
+  .topNavbar .navbar-brand img {
+    width: 140px;
+    height: 56px;
+    object-fit: scale-down;
+  }
+
+  .topNavbar .navbar-nav {
+    gap: 0px 10px;
+  }
+
+  .topNavbar .navbar-nav.navLeft {
+    padding: 0px 16px;
+  }
+
+  .timerArea {
+    gap: 0px 60px;
+  }
+
+  .aboutInfoBoxes {
+    padding: 0px 0px;
+    gap: 0px 20px;
+    align-items: flex-start;
+  }
+
+  .aboutInfoBox {
+    gap: 16px 0px;
+    width: 33.33333333%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .factSection {
+    padding: 40px 0px 0px;
+  }
+
+  .factTextArea ul li {
+    gap: 0px 16px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .factSlider .slick-dots {
+    margin: 16px 0px 0px;
+    gap: 0px 6px;
+  }
+
+  .factSlider .slick-dots button {
+    width: 16px;
+    height: 6px;
+  }
+
+  .factSlider .slick-dots li.slick-active button {
+    width: 40px;
+  }
+
+  .partnerSection {
+    padding: 40px 0px 0px;
+  }
+
+  .partnerBox .partnerBoxHead {
+    padding: 20px 20px;
+  }
+
+  .partnerBox .partnerBoxBody {
+    padding: 20px 20px;
+  }
+
+  .partnerBox .partnerBoxBody p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .sectionHeading {
+    margin-bottom: 30px;
+  }
+
+  .sectionHeading h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .sectionHeading p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .sectionHeading.text-center h1,
+  .sectionHeading.text-center p {
+    max-width: 90%;
+  }
+
+  .partnerBox .partnerBoxHead ul {
+    gap: 0px 10px;
+  }
+
+  .partnerBox .partnerBoxHead ul li img {
+    width: 100%;
+    height: 80px;
+    max-width: 180px;
+  }
+
+  .founderWrapper {
+    gap: 0px 40px;
+  }
+
+  .founderUser img {
+    width: 320px;
+    height: 320px;
+  }
+
+  .founderQuote p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .founderQuote {
+    margin-bottom: 10px;
+  }
+
+  .founderText h4 {
+    font-size: 24px;
+  }
+
+  .founderText img.ribbon {
+    width: 60px;
+    right: 10%;
+    bottom: 13%;
+  }
+
+  .founderSection {
+    padding: 80px 0px 80px;
+    background-position: center bottom 220%;
+  }
+
+  .impactSection {
+    padding: 40px 0px 40px;
+  }
+
+  .impactSection h1 {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 14px;
+  }
+
+  .impactSection h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .amenitieSection {
+    padding: 40px 0px 0px;
+  }
+
+  .amenitieBox {
+    gap: 16px 0px;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+  }
+
+  .amenitieBox img,
+  .calendarBox img,
+  .calendarHighlightBox span img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .amenitieBox h2,
+  .calendarBox h2,
+  .calendarHighlightBox h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .calendarSection {
+    padding: 40px 0px 0px;
+  }
+
+  .calendarBoxes {
+    gap: 0px 30px;
+    align-items: flex-start;
+  }
+
+  .calendarBox {
+    margin-bottom: 40px;
+    gap: 16px 0px;
+    width: 33.33333333%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .calendarHighlightBox P {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .calendarHighlightBox {
+    gap: 0px 16px;
+  }
+
+  .calendarHighlightBox h2 {
+    padding: 0px 0px 6px;
+  }
+
+  .calendarHighlight {
+    padding: 0px 0px 30px 0px;
+  }
+
+  .calendarHighlightImgOverlay h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .footerTop {
+    padding: 60px 0px 60px;
+  }
+
+  .footerTopIn h4 {
+    margin-bottom: 20px;
+  }
+
+  .footerTopIn h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .topbarText {
+    justify-content: center;
+  }
+
+  .topNavbar .navbar-nav.navLeft {
+    padding: 0px 15px;
+    gap: 4px 0px;
+  }
+
+  .topNavbar .nav-link {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 4px 4px !important;
+  }
+
+  .aboutText {
+    padding: 40px 0px 40px;
+  }
+
+  .aboutText h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 11px;
+  }
+
+  .aboutText p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 100%;
+    padding-bottom: 16px;
+  }
+
+  .aboutCountdownIn h1 {
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 14px;
+  }
+
+  .timerArea {
+    gap: 0px 34px;
+  }
+
+  .timerArea .colonBox {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .timerArea .timerBox {
+    font-size: 60px;
+    line-height: 50px;
+  }
+
+  .aboutInfoBoxes {
+    padding: 0px 20px;
+  }
+
+  .factTextArea ul li img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -5px;
+  }
+
+  .factTextArea {
+    padding: 0px 0px 30px 0px;
+  }
+
+  .sectionHeading.text-center h1,
+  .sectionHeading.text-center p {
+    max-width: 100%;
+  }
+
+  .partnerBox .partnerBoxBody p {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .founderWrapper {
+    gap: 0px 20px;
+  }
+
+  .founderUser img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .founderQuote p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .founderText h4 {
+    font-size: 20px;
+  }
+
+  .founderQuote img.quoteLeft,
+  .founderQuote img.quoteRight {
+    width: 40px;
+  }
+
+  .founderQuote img.quoteRight {
+    bottom: 0px;
+    right: 25%;
+  }
+
+  .founderQuote img.quoteLeft {
+    top: -5px;
+    left: -20px;
+  }
+
+  .founderText img.ribbon {
+    width: 60px;
+    right: 8%;
+    bottom: 16%;
+  }
+
+  .founderSection {
+    padding: 50px 0px 50px;
+    background-position: center bottom 211%;
+  }
+
+  .footerTopIn h1 {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 20px;
+  }
+
+  .footerTopIn h4 {
+    margin-bottom: 15px;
+  }
+
+  .footerTop {
+    padding: 50px 0px 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .scrollSection {
+    scroll-margin-top: 120px;
+  }
+
+  .topSection {
+    padding-top: 120px;
+  }
+
+  .topNavbar {
+    padding: 12px 0px;
+  }
+
+  .aboutText h1 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 15px;
+  }
+
+  .aboutText {
+    padding: 40px 0px 40px;
+  }
+
+  .aboutCountdownIn h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .timerArea {
+    gap: 0px 15px;
+  }
+
+  .timerArea .colonBox {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .timerArea .timerBox {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .timerArea .timerBox span {
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: 500;
+  }
+
+  .aboutInfoBoxes {
+    padding: 0px 0px;
+    flex-direction: column;
+    gap: 30px 0px;
+  }
+
+  .aboutInfoBox {
+    gap: 10px 0px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 40px;
+  }
+
+  .sectionHeading {
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 7px 0px;
+  }
+
+  .sectionHeading h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .factTextArea ul li {
+    gap: 0px 14px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .factTextArea ul {
+    gap: 20px 0px;
+  }
+
+  .factSlider .slick-slide img {
+    height: 420px;
+  }
+
+  .founderWrapper {
+    gap: 20px 0px;
+    flex-direction: column;
+  }
+
+  .founderText {
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  .founderText img.ribbon {
+    display: none;
+  }
+
+  .founderQuote img.quoteLeft {
+    top: 0px;
+    left: 0px;
+  }
+
+  .founderQuote img.quoteRight {
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .founderSection {
+    padding: 40px 0px 40px;
+    background-position: center bottom -40%;
+  }
+
+  .impactSection h1 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .impactSection h2 {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0px 20px;
+  }
+
+  .amenitieBox {
+    gap: 10px 0px;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+  }
+
+  .calendarBoxes {
+    gap: 0px 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .calendarBox {
+    margin-bottom: 30px;
+    gap: 10px 0px;
+    width: 100%;
+  }
+
+  .calendarHighlight h1 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footerTopIn h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+}
