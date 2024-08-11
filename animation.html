@@ -1,47 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scroll-triggered Animation</title>
-</head>
-
-<body>
-  <div id="animationWindow" style="width: 500px; height: 500px; margin: 0 auto;"></div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.6/lottie.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
-
-  <script>
-    // Initialize Lottie animation
-    const animation = lottie.loadAnimation({
-      container: document.getElementById('animationWindow'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: 'https://pinkpowerrun.netlify.app/life.json' // path to your lottie animation JSON file
-    });
-
-    // Use GSAP ScrollTrigger to rotate animation based on scroll
-    gsap.to(animation, {
-      rotate: 360,
-      scrollTrigger: {
-        trigger: "#animationWindow",
-        start: "top center",
-        end: "bottom center",
-        scrub: true,
-        onUpdate: (self) => {
-          const direction = self.direction > 0 ? 1 : -1; // clockwise if scrolling down, anticlockwise if up
-          animation.setDirection(direction);
-        },
-        onScrubComplete: () => {
-          animation.pause(); // Pause animation when scrolling stops
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottie Animation with Scroll</title>
+    <style>
+        body {
+            height: 200vh; /* to create scrollable content */
+            margin: 0;
         }
-      }
-    });
-  </script>
-</body>
+        #lottie {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="lottie"></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'path/to/your/circle_of_life.json' // Update this path
+        });
+
+        window.addEventListener('scroll', function() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            var scrollFraction = scrollTop / maxScroll;
+
+            var frame = Math.min(animation.totalFrames * scrollFraction, animation.totalFrames - 1);
+
+            animation.goToAndStop(frame, true);
+        });
+    </script>
+</body>
 </html>
