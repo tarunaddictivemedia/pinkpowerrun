@@ -19,7 +19,10 @@
 </head>
 <body>
     <div id="lottie"></div>
-
+    <div id="icon1" width="200"></div>
+    <div id="icon2" width="200"></div>
+    <div id="icon3" width="200"></div>
+    <div id="icon4" width="200"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
     <script>
         var animation = lottie.loadAnimation({
@@ -38,6 +41,34 @@ window.addEventListener('scroll', function() {
 
             animation.goToAndStop(frame, true);
         });
+        var animation = lottie.loadAnimation({
+        container: document.getElementById('icon1'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'images/icon1.json' // Update this path
+    });
+    var animation = lottie.loadAnimation({
+        container: document.getElementById('icon2'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'images/icon2.json' // Update this path
+    });
+    var animation = lottie.loadAnimation({
+        container: document.getElementById('icon3'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'images/icon3.json' // Update this path
+    });
+    var animation = lottie.loadAnimation({
+        container: document.getElementById('icon4'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'images/icon4.json' // Update this path
+    });
     </script>
 </body>
 </html>
