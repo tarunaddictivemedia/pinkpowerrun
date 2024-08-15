@@ -26,21 +26,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
     <script>
         var animation = lottie.loadAnimation({
-            container: document.getElementById('lottie'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://drpair.netlify.app/life.json' // Update this path
-        });
-window.addEventListener('scroll', function() {
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-            var scrollFraction = scrollTop / maxScroll;
-
-            var frame = Math.min(animation.totalFrames * scrollFraction, animation.totalFrames - 1);
-
-            animation.goToAndStop(frame, true);
-        });
+        container: document.getElementById('lottie'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'images/life.json' // Update this path
+    });
         var animation = lottie.loadAnimation({
         container: document.getElementById('icon1'),
         renderer: 'svg',
