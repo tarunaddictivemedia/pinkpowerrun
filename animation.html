@@ -69,14 +69,28 @@ body {
         path: 'images/icon3.json' // Update this path
     });
     animation.setSpeed(0.5);
-    var animation = lottie.loadAnimation({
-        container: document.getElementById('icon4'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: 'assets/images/icon4.json' // Update this path
-    });
-    animation.setSpeed(0.5);
+
+        <script>
+  // Load the Lottie animation
+  var animation = lottie.loadAnimation({
+    container: document.getElementById('icon4'), // the DOM element that will contain the animation
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'images/icon4.json' // the path to your JSON file
+  });
+
+  // Play animation on hover
+  document.getElementById('icon4').addEventListener('mouseenter', function() {
+    animation.goToAndPlay(0, true);
+  });
+
+  // Optionally reset or pause the animation on mouse leave
+  document.getElementById('icon4').addEventListener('mouseleave', function() {
+    animation.goToAndStop(0, true); // Reset the animation (optional)
+  });
+</script>
+
     </script>
 </body>
 </html>
